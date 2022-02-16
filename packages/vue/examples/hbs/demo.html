@@ -11,10 +11,12 @@
   <script src="../../dist/vue.global.js"></script>
 
   <script>
-    debugger;
     Vue.createApp({
       template: '<h2>Hello World</h2>'
     }).mount('#app');
+
+    const count = Vue.ref(0)
+    console.log(count)
   </script>
 </body>
 </html>
