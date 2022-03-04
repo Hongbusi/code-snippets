@@ -1,0 +1,20 @@
+{
+  "name": "code-snippets",
+  "displayName": "Code Snippets",
+  "description": "Code snippets for vscode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  }
+}
