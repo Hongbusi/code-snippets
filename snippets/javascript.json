@@ -1,0 +1,9 @@
+{
+  "Hongbusi": {
+    "prefix": "hbs",
+    "body": [
+      "console.log('Hongbusi')"
+    ],
+    "description": "Hongbusi test."
+  }
+}
