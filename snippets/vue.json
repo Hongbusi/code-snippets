@@ -1,0 +1,106 @@
+{
+  "template": {
+    "prefix": "template",
+    "body": [
+      "<template>",
+      "\t<${1:div}$2>",
+      "\t\t$0",
+      "\t</${1:div}>",
+      "</template>"
+    ]
+  },
+  "v-show": {
+    "prefix": "v-show",
+    "body": [
+      "v-show=\"${1:condition}\""
+    ]
+  },
+  "v-if": {
+    "prefix": "v-if",
+    "body": [
+      "v-if=\"${1:condition}\""
+    ]
+  },
+  "v-else": {
+    "prefix": "v-else",
+    "body": [
+      "v-else"
+    ]
+  },
+  "v-else-if": {
+    "prefix": "v-else-if",
+    "body": [
+      "v-else-if=\"${1:condition}\""
+    ]
+  },
+  "v-for": {
+    "prefix": "v-for",
+    "body": [
+      "v-for=\"(${1:item}, ${2:index}) in ${3:items}\" :key=\"${4:index}\""
+    ]
+  },
+  "ref": {
+    "prefix": "ref",
+    "body": [
+      "ref=\"${1:reference}\"$0"
+    ]
+  },
+  "component": {
+    "prefix": "component",
+    "body": [
+      "<component :is=\"${1:componentId}\"></component>$0"
+    ]
+  },
+  "keep-alive": {
+    "prefix": "keepAlive",
+    "body": [
+      "<keep-alive$1>",
+      "$2",
+      "</keep-alive>$0"
+    ]
+  },
+  "routerLinkTo": {
+    "prefix": "router-link",
+    "body": [
+      "<router-link to=\"$1\">$2</router-link>$0"
+    ]
+  },
+  "routerView": {
+    "prefix": "router-view",
+    "body": [
+      "<router-view>$1</router-view>$0"
+    ]
+  },
+  "script": {
+    "prefix": "script",
+    "body": [
+      "<script setup>",
+      "\t$0",
+      "</script>"
+    ]
+  },
+  "scriptTs": {
+    "prefix": "script",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "\t$0",
+      "</script>"
+    ]
+  },
+  "style": {
+    "prefix": "style",
+    "body": [
+      "<style scoped>",
+      "\t$0",
+      "</style>"
+    ]
+  },
+  "styleLess": {
+    "prefix": "style",
+    "body": [
+      "<style scoped lang=\"less\">",
+      "\t$0",
+      "</style>"
+    ]
+  }
+}

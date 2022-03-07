@@ -1,9 +1,132 @@
 {
-  "Hongbusi": {
-    "prefix": "hbs",
-    "body": [
-      "console.log('Hongbusi')"
-    ],
-    "description": "Hongbusi test."
+  "import": {
+    "prefix": "imp",
+    "body": "import ${2:moduleName} from '${1:module}'$0",
+    "description": "Imports entire module statement."
+  },
+  "importNoModuleName": {
+    "prefix": "imp",
+    "body": "import '${1:module}'$0",
+    "description": "Imports entire module without module name."
+  },
+  "importDestructing": {
+    "prefix": "imp",
+    "body": "import { $2 } from '${1:module}'$0",
+    "description": "Imports only a portion of the module."
+  },
+  "importEverything": {
+    "prefix": "imp",
+    "body": "import * as ${2:alias} from '${1:module}'$0",
+    "description": "Imports everything as alias from the module."
+  },
+  "require": {
+    "prefix": "req",
+    "body": "require('${1:package}')",
+    "description": "Require a package."
+  },
+  "requireToConst": {
+    "prefix": "req",
+    "body": "const ${1:packageName} = require('${1:package}')$0",
+    "description": "Require a package to const."
+  },
+  "moduleExports": {
+    "prefix": "mod",
+    "body": "module.exports = {\n\t$0\n}\n",
+    "description": "Module exports from Common JS."
+  },
+  "exportNamedVariable": {
+    "prefix": "exp",
+    "body": "export const ${1:exportVariable} = ${2:localVariable}\n",
+    "description": "Export named variable."
+  },
+  "exportNamedFunction": {
+    "prefix": "exp",
+    "body": "export const ${1:functionName} = (${2:params}) => {\n\t$0\n}\n",
+    "description": "Export named function."
+  },
+  "exportDefaultFunction": {
+    "prefix": "exp",
+    "body": "export default function ${1:${TM_FILENAME_BASE}}(${2:params}) {\n\t$0\n}\n",
+    "description": "Export default function."
+  },
+  "exportClass": {
+    "prefix": "exp",
+    "body": "export default class ${1:className} {\n\t$0\n}\n",
+    "description": "Export default class."
+  },
+  "exportClassExtends": {
+    "prefix": "exp",
+    "body": "export default class ${1:className} extends ${2:baseclassName} {\n\t$0\n}\n",
+    "description": "Export default class which extends a base one."
+  },
+  "constructor": {
+    "prefix": "con",
+    "body": "constructor(${1:params}) {\n\t${0}\n}",
+    "description": "Add default constructor in a class."
+  },
+  "method": {
+    "prefix": "met",
+    "body": "${1:methodName}(${2:params}) {\n\t${0}\n}",
+    "description": "Creates a method inside a class."
+  },
+  "forEach": {
+    "prefix": "fore",
+    "body": "${1:array}.forEach(${2:currentItem} => {\n\t${0}\n})",
+    "description": "Creates a forEach statement."
+  },
+  "forOf": {
+    "prefix": "forof",
+    "body": "for (const ${1:item} of ${2:object}) {\n\t${0}\n}",
+    "description": "Iterating over property names of iterable objects."
+  },
+  "forIn": {
+    "prefix": "forin",
+    "body": "for (const ${1:item} in ${2:object}) {\n\t${0}\n}",
+    "description": "Iterating over property values of iterable objects."
+  },
+  "namedFunction": {
+    "prefix": "const",
+    "body": "const ${1:name} = (${2:params}) => {\n\t${3}\n}",
+    "description": "Creates a named function."
+  },
+  "destructingObject": {
+    "prefix": "const",
+    "body": "const { ${2:propertyName} } = ${1:objectToDestruct}",
+    "description": "Creates and assigns a local variable using object destructing."
+  },
+  "destructingArray": {
+    "prefix": "const",
+    "body": "const [${2:propertyName}] = ${1:arrayToDestruct}",
+    "description": "Creates and assigns a local variable using array destructing"
+  },
+  "setInterval": {
+    "prefix": "seti",
+    "body": "setInterval(() => {\n\t${2}\n}, ${0:intervalInms})",
+    "description": "Executes the given function at specified intervals."
+  },
+  "setTimeOut": {
+    "prefix": "sett",
+    "body": "setTimeout(() => {\n\t${2}\n}, ${1:delayInms})",
+    "description": "Executes the given function after the specified delay."
+  },
+  "promise": {
+    "prefix": "prom",
+    "body": "return new Promise((resolve, reject) => {\n\t${1}\n})",
+    "description": "Creates and returns a new Promise."
+  },
+  "thenCatch": {
+    "prefix": "then",
+    "body": ".then((${1:result}) => {\n\t${2}\n}).catch((${3:err}) => {\n\t${4}\n})",
+    "description": "Add the .then and .catch methods to handle promises."
+  },
+  "consoleLog": {
+    "prefix": "log",
+    "body": "console.log(${1:object})",
+    "description": "Displays a message in the console."
+  },
+  "consoleLogObject": {
+    "prefix": "log",
+    "body": "console.log('${1:object} :>> ', ${1:object})",
+    "description": "Displays an object in the console with its name."
   }
 }
