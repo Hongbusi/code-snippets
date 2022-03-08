@@ -41,6 +41,24 @@ Support `.html` and `.vue` files. Reference link: [https://developer.mozilla.org
 
 ### Vue
 
+| Prefix | Content |
+| -------: | ------- |
+| `template` | `<template><div></div></template>` |
+| `script` | `<script setup></script>` |
+| `script` | `<script setup lang="ts"></script>` |
+| `style` | `<style scoped></style>` |
+| `style` | `<style scoped lang="less"></style>` |
+| `v-show` | `v-show=""` |
+| `v-if` | `v-if=""` |
+| `v-else` | `v-else` |
+| `v-else-if` | `v-else-if=""` |
+| `v-for` | `v-for=(..., ...) in ..." :key="..."` |
+| `ref` | `ref=""` |
+| `component` | `<component :is="..."></component>` |
+| `keep-alive` | `<keep-alive></keep-alive>` |
+| `router-link` | `<router-link to="..."></router-link>` |
+| `router-view` | `<router-view></router-view>` |
+
 ## License
 
 MIT License, refer to license file.

@@ -9,6 +9,38 @@
       "</template>"
     ]
   },
+  "script": {
+    "prefix": "script",
+    "body": [
+      "<script setup>",
+      "\t$0",
+      "</script>"
+    ]
+  },
+  "scriptTs": {
+    "prefix": "script",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "\t$0",
+      "</script>"
+    ]
+  },
+  "style": {
+    "prefix": "style",
+    "body": [
+      "<style scoped>",
+      "\t$0",
+      "</style>"
+    ]
+  },
+  "styleLess": {
+    "prefix": "style",
+    "body": [
+      "<style scoped lang=\"less\">",
+      "\t$0",
+      "</style>"
+    ]
+  },
   "v-show": {
     "prefix": "v-show",
     "body": [
@@ -69,38 +101,6 @@
     "prefix": "router-view",
     "body": [
       "<router-view>$1</router-view>$0"
-    ]
-  },
-  "script": {
-    "prefix": "script",
-    "body": [
-      "<script setup>",
-      "\t$0",
-      "</script>"
-    ]
-  },
-  "scriptTs": {
-    "prefix": "script",
-    "body": [
-      "<script setup lang=\"ts\">",
-      "\t$0",
-      "</script>"
-    ]
-  },
-  "style": {
-    "prefix": "style",
-    "body": [
-      "<style scoped>",
-      "\t$0",
-      "</style>"
-    ]
-  },
-  "styleLess": {
-    "prefix": "style",
-    "body": [
-      "<style scoped lang=\"less\">",
-      "\t$0",
-      "</style>"
     ]
   }
 }
