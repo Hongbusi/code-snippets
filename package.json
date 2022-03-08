@@ -3,7 +3,7 @@
   "icon": "images/logo.png",
   "displayName": "Frontend Code Snippets",
   "description": "Frontend code snippets for vscode.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Hongbusi",
   "engines": {
     "vscode": "^1.65.0"
