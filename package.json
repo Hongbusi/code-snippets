@@ -23,6 +23,10 @@
     "snippets": [
       {
         "language": "html",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "html",
         "path": "./snippets/javascript.json"
       },
       {
@@ -32,6 +36,10 @@
       {
         "language": "typescript",
         "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/html.json"
       },
       {
         "language": "vue",
