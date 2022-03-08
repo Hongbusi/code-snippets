@@ -2,7 +2,7 @@
   "name": "frontend-code-snippets",
   "icon": "images/logo.png",
   "displayName": "Frontend Code Snippets",
-  "description": "Code snippets for vscode.",
+  "description": "Frontend code snippets for vscode.",
   "version": "0.0.1",
   "publisher": "Hongbusi",
   "engines": {
