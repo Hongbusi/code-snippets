@@ -1,9 +1,9 @@
 {
-  "name": "frontend-code-snippets",
+  "name": "custom-snippets",
   "icon": "images/logo.png",
-  "displayName": "Frontend Code Snippets",
-  "description": "Frontend code snippets for vscode.",
-  "version": "0.0.2",
+  "displayName": "Code Snippets",
+  "description": "Code snippets for vscode.",
+  "version": "0.0.3",
   "publisher": "Hongbusi",
   "engines": {
     "vscode": "^1.65.0"

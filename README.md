@@ -1,6 +1,6 @@
-# Frontend Code Snippets
+# Code Snippets
 
-Frontend code snippets for vscode.
+Code snippets for vscode.
 
 ## Code Snippets
 
