@@ -61,4 +61,4 @@ Support `.html` and `.vue` files. Reference link: [https://developer.mozilla.org
 
 ## License
 
-MIT License, refer to license file.
+MIT License, Copyright (c) 2022 Hongbusi.
