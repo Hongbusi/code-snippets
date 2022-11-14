@@ -38,6 +38,7 @@ Support `.html` and `.vue` files. Reference link: [https://developer.mozilla.org
 | `then` | `.then((...) => { ... ).catch((...) => { ... })` |
 | `log` | `console.log(...)` |
 | `log` | `console.log('... :>> ', ...)` |
+| `todo` | `// TODO ...` |
 
 ### Vue
 
@@ -48,6 +49,7 @@ Support `.html` and `.vue` files. Reference link: [https://developer.mozilla.org
 | `script` | `<script setup lang="ts"></script>` |
 | `style` | `<style scoped></style>` |
 | `style` | `<style scoped lang="less"></style>` |
+| `style` | `<style scoped lang="scss"></style>` |
 | `v-show` | `v-show=""` |
 | `v-if` | `v-if=""` |
 | `v-else` | `v-else` |

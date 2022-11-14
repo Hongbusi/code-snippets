@@ -3,13 +3,13 @@
     "prefix": "template",
     "body": [
       "<template>",
-      "\t<${1:div}$2>",
+      "\t<div>",
       "\t\t$0",
-      "\t</${1:div}>",
+      "\t</div>",
       "</template>"
     ]
   },
-  "script": {
+  "script(setup)": {
     "prefix": "script",
     "body": [
       "<script setup>",
@@ -17,7 +17,7 @@
       "</script>"
     ]
   },
-  "scriptTs": {
+  "script(setup,typescript)": {
     "prefix": "script",
     "body": [
       "<script setup lang=\"ts\">",
@@ -25,7 +25,7 @@
       "</script>"
     ]
   },
-  "style": {
+  "style(scoped)": {
     "prefix": "style",
     "body": [
       "<style scoped>",
@@ -33,10 +33,18 @@
       "</style>"
     ]
   },
-  "styleLess": {
+  "style(scoped,less)": {
     "prefix": "style",
     "body": [
       "<style scoped lang=\"less\">",
+      "\t$0",
+      "</style>"
+    ]
+  },
+  "style(scoped,scss)": {
+    "prefix": "style",
+    "body": [
+      "<style scoped lang=\"scss\">",
       "\t$0",
       "</style>"
     ]
@@ -91,13 +99,13 @@
       "</keep-alive>$0"
     ]
   },
-  "routerLinkTo": {
+  "router-link": {
     "prefix": "router-link",
     "body": [
       "<router-link to=\"$1\">$2</router-link>$0"
     ]
   },
-  "routerView": {
+  "router-view": {
     "prefix": "router-view",
     "body": [
       "<router-view>$1</router-view>$0"

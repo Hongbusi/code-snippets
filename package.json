@@ -14,7 +14,8 @@
   },
   "scripts": {
     "build": "vsce package -o code-snippets-$npm_package_version.vsix",
-    "install": "yarn build && code --install-extension code-snippets-$npm_package_version.vsix"
+    "install": "yarn build && code --install-extension code-snippets-$npm_package_version.vsix",
+    "release": "npx bumpp --commit --tag --push"
   },
   "categories": [
     "Snippets"
@@ -26,8 +27,8 @@
         "path": "./snippets/html.json"
       },
       {
-        "language": "vue",
-        "path": "./snippets/html.json"
+        "language": "html",
+        "path": "./snippets/vue.json"
       },
       {
         "language": "javascript",
@@ -36,6 +37,18 @@
       {
         "language": "typescript",
         "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/html.json"
       },
       {
         "language": "vue",

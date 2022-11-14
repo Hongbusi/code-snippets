@@ -128,5 +128,10 @@
     "prefix": "log",
     "body": "console.log('${1:object} :>> ', ${1:object})",
     "description": "Displays an object in the console with its name."
+  },
+  "toDoMarker": {
+    "prefix": "todo",
+    "body": "// TODO ${1:thing}",
+    "description": "Add ToDo comment markers."
   }
 }
