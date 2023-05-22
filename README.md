@@ -61,6 +61,20 @@ Support `.html` and `.vue` files. Reference link: [https://developer.mozilla.org
 | `router-link` | `<router-link to="..."></router-link>` |
 | `router-view` | `<router-view></router-view>` |
 
+
+### Markdown
+
+| Prefix | Content |
+| -------: | ------- |
+| `code` | `` |
+| `md` | \``` md \``` |
+| `bash` | \``` bash \``` |
+| `html` | \``` html \``` |
+| `css` | \``` css \``` |
+| `js` | \``` js \``` |
+| `vue` | \``` vue \``` |
+| `ts` | \``` ts \``` |
+
 ## License
 
 [MIT](./LICENSE) License © 2022 [Hongbusi](https://github.com/Hongbusi)

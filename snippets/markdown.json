@@ -1,0 +1,72 @@
+{
+  "quotingCode": {
+    "prefix": "code",
+    "body": [
+      "`$1`"
+    ],
+    "description": "quotingCode"
+  },
+  "quotingCodeMd": {
+    "prefix": "md",
+    "body": [
+      "``` md",
+      "$1",
+      "```"
+    ],
+    "description": "quotingCodeMd"
+  },
+  "quotingCodeBash": {
+    "prefix": "bash",
+    "body": [
+      "``` bash",
+      "$1",
+      "```"
+    ],
+    "description": "quotingCodeBash"
+  },
+  "quotingCodeHtml": {
+    "prefix": "html",
+    "body": [
+      "``` html",
+      "$1",
+      "```"
+    ],
+    "description": "quotingCodeHtml"
+  },
+  "quotingCodeCss": {
+    "prefix": "css",
+    "body": [
+      "``` css",
+      "$1",
+      "```"
+    ],
+    "description": "quotingCodeCss"
+  },
+  "quotingCodeJs": {
+    "prefix": "js",
+    "body": [
+      "``` js",
+      "$1",
+      "```"
+    ],
+    "description": "quotingCodeJs"
+  },
+  "quotingCodeVue": {
+    "prefix": "vue",
+    "body": [
+      "``` vue",
+      "$1",
+      "```"
+    ],
+    "description": "quotingCodeVue"
+  },
+  "quotingCodeTs": {
+    "prefix": "ts",
+    "body": [
+      "``` ts",
+      "$1",
+      "```"
+    ],
+    "description": "quotingCodeTs"
+  }
+}
