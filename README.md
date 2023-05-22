@@ -61,7 +61,6 @@ Support `.html` and `.vue` files. Reference link: [https://developer.mozilla.org
 | `router-link` | `<router-link to="..."></router-link>` |
 | `router-view` | `<router-view></router-view>` |
 
-
 ### Markdown
 
 | Prefix | Content |

@@ -2,7 +2,7 @@
   "quotingCode": {
     "prefix": "code",
     "body": [
-      "`$1`"
+      "`$1` $2"
     ],
     "description": "quotingCode"
   },
@@ -11,7 +11,9 @@
     "body": [
       "``` md",
       "$1",
-      "```"
+      "```",
+      "",
+      "$2"
     ],
     "description": "quotingCodeMd"
   },
@@ -20,7 +22,9 @@
     "body": [
       "``` bash",
       "$1",
-      "```"
+      "```",
+      "",
+      "$2"
     ],
     "description": "quotingCodeBash"
   },
@@ -29,7 +33,9 @@
     "body": [
       "``` html",
       "$1",
-      "```"
+      "```",
+      "",
+      "$2"
     ],
     "description": "quotingCodeHtml"
   },
@@ -38,7 +44,9 @@
     "body": [
       "``` css",
       "$1",
-      "```"
+      "```",
+      "",
+      "$2"
     ],
     "description": "quotingCodeCss"
   },
@@ -47,7 +55,9 @@
     "body": [
       "``` js",
       "$1",
-      "```"
+      "```",
+      "",
+      "$2"
     ],
     "description": "quotingCodeJs"
   },
@@ -56,7 +66,9 @@
     "body": [
       "``` vue",
       "$1",
-      "```"
+      "```",
+      "",
+      "$2"
     ],
     "description": "quotingCodeVue"
   },
@@ -65,7 +77,9 @@
     "body": [
       "``` ts",
       "$1",
-      "```"
+      "```",
+      "",
+      "$2"
     ],
     "description": "quotingCodeTs"
   }
