@@ -3,7 +3,7 @@
   "icon": "images/logo.png",
   "displayName": "Code Snippets",
   "description": "Code snippets for vscode.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "Hongbusi",
   "engines": {
     "vscode": "^1.65.0"
@@ -57,6 +57,10 @@
       {
         "language": "vue",
         "path": "./snippets/vue.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/markdown.json"
       }
     ]
   }
