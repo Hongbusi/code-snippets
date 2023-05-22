@@ -1,5 +1,6 @@
 {
   "name": "custom-snippets",
+  "packageManager": "pnpm@8.5.1",
   "icon": "images/logo.png",
   "displayName": "Code Snippets",
   "description": "Code snippets for vscode.",
