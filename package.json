@@ -4,7 +4,7 @@
   "icon": "images/logo.png",
   "displayName": "Code Snippets",
   "description": "Code snippets for vscode.",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publisher": "Hongbusi",
   "engines": {
     "vscode": "^1.65.0"
