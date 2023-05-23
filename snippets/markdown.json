@@ -12,7 +12,6 @@
       "``` md",
       "$1",
       "```",
-      "",
       "$2"
     ],
     "description": "quotingCodeMd"
@@ -23,7 +22,6 @@
       "``` bash",
       "$1",
       "```",
-      "",
       "$2"
     ],
     "description": "quotingCodeBash"
@@ -34,7 +32,6 @@
       "``` html",
       "$1",
       "```",
-      "",
       "$2"
     ],
     "description": "quotingCodeHtml"
@@ -45,7 +42,6 @@
       "``` css",
       "$1",
       "```",
-      "",
       "$2"
     ],
     "description": "quotingCodeCss"
@@ -56,7 +52,6 @@
       "``` js",
       "$1",
       "```",
-      "",
       "$2"
     ],
     "description": "quotingCodeJs"
@@ -67,7 +62,6 @@
       "``` vue",
       "$1",
       "```",
-      "",
       "$2"
     ],
     "description": "quotingCodeVue"
@@ -78,7 +72,6 @@
       "``` ts",
       "$1",
       "```",
-      "",
       "$2"
     ],
     "description": "quotingCodeTs"
