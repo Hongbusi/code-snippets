@@ -4,7 +4,7 @@
   "icon": "images/logo.png",
   "displayName": "Code Snippets",
   "description": "Code snippets for vscode.",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "publisher": "Hongbusi",
   "engines": {
     "vscode": "^1.65.0"
@@ -46,6 +46,14 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/wxml.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/wxml.json"
       },
       {
         "language": "vue",
