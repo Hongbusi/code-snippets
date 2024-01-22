@@ -1,0 +1,64 @@
+{
+  "setData": {
+    "prefix": "set",
+    "body": [
+      "this.setData({$0})"
+    ],
+    "description": "setData"
+  },
+  "collectBi": {
+    "prefix": "bi",
+    "body": [
+      "this._collect.bi('${1:fid}', ${2:params})"
+    ],
+    "description": "collectBi"
+  },
+  "collectElk": {
+    "prefix": "elk",
+    "body": [
+      "this._collect.elk('${1:fid}', ${2:params})"
+    ],
+    "description": "collectElk"
+  },
+  "collectBusiness": {
+    "prefix": "business",
+    "body": [
+      "this._collect.business('${1:fid}', ${2:params})"
+    ],
+    "description": "collectBusiness"
+  },
+  "Actions.Toast.alert": {
+    "prefix": "alert",
+    "body": [
+      "Actions.Toast.alert('$0')"
+    ],
+    "description": "Actions.Toast.alert"
+  },
+  "Actions.Toast.fail": {
+    "prefix": "fail",
+    "body": [
+      "Actions.Toast.fail('$0')"
+    ],
+    "description": "Actions.Toast.fail"
+  },
+  "Actions.Toast.success": {
+    "prefix": "success",
+    "body": [
+      "Actions.Toast.success('$0')"
+    ],
+    "description": "Actions.Toast.success"
+  },
+  "Actions.Modal.select": {
+    "prefix": "select",
+    "body": [
+      "Actions.Modal.select('${1:modalContent}', '${2:confirmText}', {",
+      "  success: (ret) => {",
+      "    if (ret) {",
+      "      ${3:// TODO thing}",
+      "    }",
+      "  },",
+      "})"
+    ],
+    "description": "Actions.Modal.select"
+  }
+}

@@ -39,6 +39,14 @@ Support `.html` and `.vue` files. Reference link: [https://developer.mozilla.org
 | `log` | `console.log(...)` |
 | `log` | `console.log('... :>> ', ...)` |
 | `todo` | `// TODO ...` |
+| `set` | `this.setData({ ... })` |
+| `bi` | `this._collect.bi('...', ...)` |
+| `elk` | `this._collect.elk('...', ...)` |
+| `business` | `this._collect.business('...', ...)` |
+| `alert` | `Actions.Toast.alert('...')` |
+| `fail` | `Actions.Toast.fail('...')` |
+| `success` | `Actions.Toast.success('...')` |
+| `select` | `Actions.Modal.select('...', '...', {...})` |
 
 ### Vue
 
